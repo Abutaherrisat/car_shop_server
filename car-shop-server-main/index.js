@@ -147,8 +147,10 @@ run().catch(console.dir)
 
 
 app.get('/', (req, res) => {
-    res.send('hell world')
+    // res.send('hell world')
+    res.send('hello world')
 });
 app.listen(port, () => {
     console.log('runnig port', port);
+
 })
